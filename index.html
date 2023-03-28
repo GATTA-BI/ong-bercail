@@ -50,7 +50,7 @@
 		<div class="container">
 			
 			<a class="navbar-brand" href="index.html" class="position-absolute top-50 start-30 "> 
-				<img src="images/ong_bercail.png" class="card-img-top" alt="..."height="75" width="30">  </a>
+				<img src="images/ong_bercail.png" class="card-img-top" alt="..."height="80" width="50">  </a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 				<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list bi-6x text-white"  viewBox="0 0 13 13">
                     <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
@@ -122,9 +122,42 @@
 								<span> ...dons</span>
 							</p>
 						</div>
-						<form action="https://formspree.io/f/moqznodw" method="POST" id="contactForm" name="contactForm" class="contactForm">
+						<form action="https://formspree.io/f/moqznodw" method="POST">
 							<div class="row">
-								<div class="col-md-6 text-center">
+								<div class="col-lg-12 text-center">
+								
+								<div class="text-light">
+									<div class="tag">Nom et Prenom</div>
+									<input type="text" name="nom-prenom" size="40" class="text-dark fw-secondary text-center rounded" required  style="background-color:rgba(255, 255, 255, 0.981)" required>
+								</div>
+							    </div>
+							
+								<div class="col-lg-12 text-center">
+								<div class="text-light ">
+									<div class="tag">Email</div>
+									<input class="input-lg" type="text" name="email" size="40" class="text-dark fw-secondary text-center rounded" required  style="background-color:rgba(255, 255, 255, 0.981)" required >
+								</div>
+                                </div>
+								<div class="col-lg-12 text-center">
+								<div class="text-light">
+									<div class="tag">Objet</div>
+									<input type="text" name="objet" size="40" class="text-dark fw-secondary text-center rounded" required  style="background-color:rgba(255, 255, 255, 0.981)" required>
+								</div>
+							    </div>
+								<div class="col-lg-12 text-center ">
+								<div class="text-light " >
+									<div class="tag">Message</div>
+									<textarea name="message" cols="42" rows="5" size="40" class="text-dark fw-secondary text-center rounded" required  style="background-color:rgba(255, 255, 255, 0.981)"></textarea>
+								</div>
+							    </div>
+								<div class="col-lg-12 text-center">
+								<div class="text-dark">
+									<input type="submit" value="Envoyer" class="btn btn-primary">						
+								</div>
+							    </div>
+								<br>
+							</div>
+								<!-- <div class="col-md-6 text-center">
 									<div class="form-group">
 										<label class="label" for="name">Nom et Prenom</label>
 										<input type="text" class="form-control" name="name" id="name" placeholder="écrivez" required>
@@ -154,7 +187,7 @@
 										<div class="submitting"></div>
 									</div>
 								</div>
-							</div>
+							</div> -->
 						</form>
 						
 
