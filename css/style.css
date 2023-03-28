@@ -9225,9 +9225,10 @@ h1, h2, h3, h4, h5,
 
 .form-control {
   height: 52px;
+  width: 420px;
   background: #fff !important;
   color: #000000 !important;
-  font-size: 14px;
+  font-size: 15px;
   border-radius: 5px;
   -webkit-box-shadow: none !important;
   box-shadow: none !important; }
