@@ -8628,7 +8628,7 @@ h1, h2, h3, h4, h5,
       background-position: center center !important; } }
   .hero-wrap .overlay {
     position: absolute;
-    width: 100%;
+    width: 50%;
     top: 0;
     right: 0;
     left: 0;
